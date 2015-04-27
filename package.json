@@ -1,0 +1,26 @@
+{
+  "name": "phaser-shim-loader",
+  "version": "1.0.0",
+  "description": "A webpack loader that is meant to shim phaser so you can use it via require from npm. this resolves build errors",
+  "main": "index.js",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:the-simian/phaser-shim-loader.git"
+  },
+  "keywords": [
+    "phaser",
+    "webpack",
+    "loader",
+    "shim",
+    "debug"
+  ],
+  "author": "Jesse Harlin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/the-simian/phaser-shim-loader/issues"
+  },
+  "homepage": "https://github.com/the-simian/phaser-shim-loader"
+}

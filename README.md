@@ -11,7 +11,7 @@ Like any loader, you use it in your webpack.config file.
 
 ```js
 var phaserWebpackLoader = require('phaser-shim-loader'),
-  phaserWebpackDebugLoader = require('phaser-shim-loader'),
+  phaserWebpackDebugLoader = require('phaser-shim-loader/phaser-debug'),
   
   
 //...

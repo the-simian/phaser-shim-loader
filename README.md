@@ -10,8 +10,9 @@ Like any loader, you use it in your webpack.config file.
 
 
 ```js
-var phaserWebpackLoader = require('phaser-shim-loader'),
-  phaserWebpackDebugLoader = require('phaser-shim-loader/phaser-debug'),
+var path = require('path');
+var phaserWebpackLoader = path.join(__dirname, '/node_modules/phaser-shim-loader'),
+  phaserWebpackDebugLoader = path.join(__dirname, '/node_modules/phaser-shim-loader/phaser=debug'),
   
   
 //...
@@ -41,4 +42,5 @@ var phaserWebpackLoader = require('phaser-shim-loader'),
   
 ```
 
+Note: This doesn't work with 2.3.x - yet.
 

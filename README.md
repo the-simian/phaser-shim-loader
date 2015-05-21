@@ -33,8 +33,11 @@ You will need to use the correct versions of both pixi and p2. At the imte of th
 Also be aware that the npm module [`pixi`](https://www.npmjs.com/package/pixi) is the *wrong module*, you want [`pixi.js`](https://www.npmjs.com/package/pixi.js), the official module
 
 
-## How to use:
-Currently compatible with phaser 2.2.x
+
+
+## How to use with old version of phaser:
+
+Compatible with phaser 2.2.x
 
 Like any loader, you use it in your webpack.config file.
 

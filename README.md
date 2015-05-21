@@ -5,7 +5,7 @@ A webpack loader, that allows you to use the npm version of phaser with a normal
 
 ## Deprecation Notice!
 
-As of version 1.3.x, this module is no longer necessary to make phaser operate correctly with webpack!
+As of phaser version 2.3.x, this module is no longer necessary to make phaser operate correctly with webpack!
 
 * [The quickest way to get running is to use the `slush-phaser-webpack` generator](https://www.npmjs.com/package/slush-phaser-webpack)
 
